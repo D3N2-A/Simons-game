@@ -44,3 +44,7 @@ body {
 .blue {
   background-color: blue;
 }
+
+.pressed {
+  opacity: 0.5;
+}
