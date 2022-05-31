@@ -28,7 +28,12 @@ function checkAnswer(currentLevel) {
       }, 1000);
     }
   } else {
-    console.log("wrong");
+    $("title").text("Game Over!");
+    $("body").addClass("game-over");
+    setTimeout(function () {
+      $("body").removeClass("Game Over, Press Any Key to Restart");
+    }, 200);
+    playSound("wrong");
   }
 }
 

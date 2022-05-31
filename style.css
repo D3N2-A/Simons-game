@@ -48,3 +48,8 @@ body {
 .pressed {
   opacity: 0.5;
 }
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
